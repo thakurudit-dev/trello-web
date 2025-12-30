@@ -42,6 +42,7 @@ const router = createBrowserRouter(
 
 function App() {
   console.log("web check 1")
+  console.log("web check 2")
   return (
     <ContextProvider>
       <RouterProvider router={router} />
