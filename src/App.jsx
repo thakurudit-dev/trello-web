@@ -44,6 +44,7 @@ function App() {
   console.log("web check 1")
   console.log("web check 2")
   console.log("web check 3")
+  console.log("web check 4")
   return (
     <ContextProvider>
       <RouterProvider router={router} />
