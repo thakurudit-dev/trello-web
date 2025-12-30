@@ -41,7 +41,7 @@ const router = createBrowserRouter(
 )
 
 function App() {
-
+  console.log("web check 1")
   return (
     <ContextProvider>
       <RouterProvider router={router} />
